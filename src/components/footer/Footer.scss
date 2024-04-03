@@ -1,15 +1,17 @@
 footer {
   background: #191919;
+  padding: 30px 0;
   .footer__content {
     .footer__cards {
       display: flex;
-      align-items: center;
+      align-items: flex-start;
       justify-content: space-between;
       .footer__card {
         display: flex;
         align-items: flex-start;
-        justify-content: center;
+        justify-content: flex-start;
         flex-direction: column;
+
         h1 {
           color: #fff;
           font-family: sans-serif;

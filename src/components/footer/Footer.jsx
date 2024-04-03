@@ -82,6 +82,19 @@ function Footer() {
                 Xiaomi Renovation
               </a>
             </div>
+            <div className="footer__card">
+              <h2>Follow Xiaomi</h2>
+
+              <p>Let's stay in touch</p>
+              <form className="form">
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Enter email address"
+                />
+              </form>
+            </div>
           </div>
         </div>
       </div>

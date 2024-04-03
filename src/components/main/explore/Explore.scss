@@ -1,0 +1,19 @@
+.explore-section {
+  .explore-content {
+    .explore-title {
+      font-family: sans-serif;
+      font-weight: 700;
+      font-size: 34px;
+      text-align: center;
+      padding-bottom: 40px;
+    }
+    .img__cards {
+      display: flex;
+      align-items: center;
+      flex-basis: 33%;
+      img {
+        width: 33%;
+      }
+    }
+  }
+}

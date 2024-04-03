@@ -1,0 +1,138 @@
+.feature-section {
+  padding: 170px 0;
+  .feature-content {
+    .feature__title {
+      font-family: sans-serif;
+      font-weight: 600;
+      font-size: 32px;
+      text-align: center;
+      padding-bottom: 35px;
+    }
+    .feature__pagination {
+      .page__texts {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 45px;
+        .first__child {
+          font-family: sans-serif;
+          font-weight: 600;
+          font-style: 18px;
+          color: #212159;
+          transition: 0.3s;
+          cursor: pointer;
+
+          color: #ff6900;
+          text-decoration: underline;
+          text-underline-offset: 7px;
+        }
+        p {
+          font-family: sans-serif;
+          font-weight: 600;
+          font-style: 18px;
+          color: #212159;
+          transition: 0.3s;
+          cursor: pointer;
+          &:hover {
+            color: #ff6900;
+            text-decoration: underline;
+            text-underline-offset: 7px;
+          }
+        }
+      }
+    }
+    .feature__cards {
+      margin-top: 34px;
+      padding: 24px;
+      border-radius: 24px;
+      background: #fff;
+      box-shadow: 3px 3px 5px rgba(216, 216, 216, 0.2);
+      .feature__card {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: #fafafa;
+        border-radius: 12px;
+        overflow: hidden;
+        .child_card {
+          padding-right: 200px;
+        }
+        .child__card {
+          max-width: 500px;
+          .phone__title {
+            font-family: sans-serif;
+            font-weight: 600;
+            font-size: 32px;
+            color: #212159;
+            text-align: left;
+            display: flex;
+            align-items: center;
+            p {
+              color: #ff6900;
+              padding: 0px 5px;
+            }
+            span {
+              padding: 2px 5px;
+              border: 1px solid #000;
+              border-radius: 8px;
+              margin: 0px 0px 0px 10px;
+            }
+          }
+          .phone__name {
+            font-family: sans-serif;
+            font-weight: 600;
+            font-size: 16px;
+            color: #212159;
+            text-align: center;
+            padding: 10px 0;
+          }
+          .phone__info {
+            font-family: sans-serif;
+            font-weight: 400;
+            font-style: 16px;
+            color: #212159;
+            text-align: center;
+            padding-top: 20px;
+          }
+          img {
+            width: 100%;
+          }
+        }
+      }
+      .feature__cards__bottom {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 35px;
+        .feature__card__bottom {
+          background: #fafafa;
+          border-radius: 12px;
+          overflow: hidden;
+          width: 290px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          padding: 20px;
+          transition: 0.3s;
+          &:hover {
+            box-shadow: 3px 3px 5px rgba(137, 137, 137, 0.2);
+          }
+          h3 {
+            font-family: sans-serif;
+            font-weight: 600;
+            font-size: 24px;
+            color: #212159;
+            padding: 10px 0;
+          }
+          p {
+            font-family: sans-serif;
+
+            font-size: 14px;
+            color: #212159;
+          }
+        }
+      }
+    }
+  }
+}

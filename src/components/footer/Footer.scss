@@ -6,6 +6,8 @@ footer {
       display: flex;
       align-items: flex-start;
       justify-content: space-between;
+      gap: 24px;
+      flex-wrap: wrap;
       .footer__card {
         display: flex;
         align-items: flex-start;
